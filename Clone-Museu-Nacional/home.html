@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Museu Nacional</title>
+		<!-- Normalize CSS-->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<!-- Estilo custumizaso -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<!-- Html-5-Shiv -->
+		<script src="js/html5shiv.js"></script>
+	</head>
+	<body>
+		<header><!-- Inicio Header -->
+			<div id="logo">
+				<img src="imagens/logo.png" width="248">
+			</div>
+			<nav id="menu">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Exposições</a></li>
+					<li><a href="">Pesquisa</a></li>
+					<li><a href="">Acervo</a></li>
+					<li><a href="">Vídeos</a></li>
+					<li><a href="">Fotos</a></li>
+					<li><a href="">Contato</a></li>
+				</ul>
+			</nav>
+		</header><!-- Fim Header -->
+		<div id="div-main"><!-- Inicio div-main -->
+			<div id="conteudo"><!-- inicio conteudo -->
+				<section id="capa">
+					<img src="imagens/museu.png">
+				</section>
+				<section id="postagens">
+					<article id="video">
+						<h1>Video: conheça o museu</h1>
+						<iframe width="310" height="170" src="https://www.youtube.com/embed/9xuwQ9q68hg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</article>
+					<article id="mapa">
+						<h1>Mapa: Encontre o museu</h1>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2946100154086!2d-74.0145618852985!3d40.71153054558254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1a3be8cb45%3A0xf430ccc5401d1eed!2sMemorial%20%26%20Museu%20Nacional%20do%2011%20de%20Setembro!5e0!3m2!1spt-BR!2sbr!4v1626988500622!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>					
+					</article>
+					<article>
+						<h1>Exposições</h1>
+						<ul>
+							<li><a href="">Os assustadores insetos</a></li>
+							<li><a href="">O crânio de luzia, a mulher mais antiga do Brasil</a></li>
+							<li><a href="">Preguiça gigante e tigre dentes-de-sabre</a></li>
+							<li><a href="">Plantas do Brasil Central</a></li>
+							<li><a href="">Artes Com Dinossauros - Paleoarte</a></li>
+							<li><a href="">Arte Com Dinossauros</a></li>
+							<li><a href=""><strong>Ver todos(65)</strong></a></li>
+						</ul>
+					</article>
+					<article>
+						<h1> Anos de História</h1>
+						<p>Numa porta que avança sobre o mar, posteriormente conhecida como Ponta do Calaboço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os  portugueses construiram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Historico Nacional</p>
+					</article>
+				</section>
+			</div><!-- Fim conteudo -->
+			<aside><!-- Inicio aside -->
+				<section id="depoimento">
+					<img src="imagens/depoimento.png">
+				</section>
+				<section id="visita">
+					<h4>Faça uma visita!</h4>
+					<form>
+						<fieldset>
+							<legend>Selecione uma data</legend>
+							<label for="data">Data</label>
+							<input class="campo" type="date" id="data">
+							<label for="qtd">Qtd pessoa</label>
+							<input class="campo" style="width: 30px;" type="number" min="1" max="10" step="1" id="qtd">
+						</fieldset>
+						<input class="botao" type="submit" value="Verificar disponibilidade">
+					</form>
+				</section>
+
+				<section id="galeria">
+					<h4>Galeria de fotos</h4>
+					<a href="">
+						<img src="imagens/imagem1.jpg" width="93" height="93">
+					</a>
+					<a href="">
+						<img src="imagens/imagem2.jpg" width="93" height="93">
+					</a>
+					<a href="">
+						<img src="imagens/imagem3.jpg" width="93" height="93">
+					</a>
+					<a href="">
+						<img src="imagens/imagem4.jpg" width="93" height="93">
+					</a>
+					<div style="clear: both;"></div>
+				</section>
+			</aside><!-- Fim aside -->
+		</div><!-- Fim div-main -->
+	</body>
+</html>
